@@ -1,0 +1,34 @@
+.message-input {
+  background-color: #b40c0c; 
+  position: fixed; /* Tornar o contêiner fixo */
+  bottom: 0; /* Fixar na parte inferior */
+  left: 0; /* Alinhar à esquerda */
+  right: 0; /* Alinhar à direita */
+  display: grid;
+  grid-template-columns: 1fr 3fr auto; /* Três colunas com largura automática */
+  padding: 10px;
+  border-radius: 10px;
+  align-items: center; /* Centralizar verticalmente */
+}
+
+.sender-input,
+.content-input {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.sender-input {
+  flex: 1; /* Campo do remetente com menor flexibilidade */
+}
+
+.content-input {
+  flex: 3; /* Campo de mensagem com maior flexibilidade */
+}
+
+.send-button {
+  color: white;
+  padding: 5px 6px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
