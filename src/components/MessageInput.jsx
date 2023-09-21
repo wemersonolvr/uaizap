@@ -8,7 +8,7 @@ function MessageInput({ onSend }) {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Verifique se ambos os campos não estão vazios
+    // Verifica se ambos os campos não estão vazios
     if (sender.trim() === '' || content.trim() === '') {
       alert('Ambos os campos devem ser preenchidos');
       return; // Impede o envio da mensagem se houver campos vazios
