@@ -5,16 +5,16 @@ import Uaizap from './assets/UAI-ZAP.png';
 import './App.css';
 
 const StyledHeader = styled.header`
-  background-color: orange; /* Define a cor de fundo do header como vermelho */
+  background-color: orange; 
   display: flex;
   align-items: center;
-  padding: 10px; /* Adicione algum espaço interno para o conteúdo do header */
+  padding: 10px; 
 `;
 
 const LogoImage = styled.img`
-  width: 10%; /* Defina a largura desejada para a imagem do logo */
-  height: 10%; /* Defina a altura desejada para a imagem do logo */
-  margin-right: 10px; /* Adicione algum espaço à direita da imagem */
+  width: 10%; 
+  height: 10%; 
+  margin-right: 10px; 
 `;
 
 function App() {
