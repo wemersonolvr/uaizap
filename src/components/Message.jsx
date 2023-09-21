@@ -18,7 +18,7 @@ const StyledMessage = styled.div`
   color: ${({ isMyMessage }) => (isMyMessage ? 'white' : 'black')};
   text-align: ${({ isMyMessage }) => (isMyMessage ? 'right' : 'left')};
   word-wrap: break-word; /* Quebra de palavras quando necessário */
-  max-width: 20%; /* Define um limite de largura para a caixa da mensagem */
+  max-width: 10%; /* Define um limite de largura para a caixa da mensagem */
   margin-left: ${({ isMyMessage }) => (isMyMessage ? 'auto' : '0')}; /* Move a mensagem 'eu' para a direita */
 `;
 

@@ -12,8 +12,8 @@ const StyledHeader = styled.header`
 `;
 
 const LogoImage = styled.img`
-  width: 5%; /* Defina a largura desejada para a imagem do logo */
-  height: 5%; /* Defina a altura desejada para a imagem do logo */
+  width: 10%; /* Defina a largura desejada para a imagem do logo */
+  height: 10%; /* Defina a altura desejada para a imagem do logo */
   margin-right: 10px; /* Adicione algum espaço à direita da imagem */
 `;
 
