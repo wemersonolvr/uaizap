@@ -31,4 +31,4 @@ Certifique-se de ter o Node.js e o npm instalados em seu sistema. Você pode bai
 1. Clone este repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/uaizap.git
+   git clone https://github.com/wemersonolvr/uaizap.git
